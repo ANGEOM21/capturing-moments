@@ -1,0 +1,70 @@
+.swiper-collection {
+  width: 100%;
+  border-radius: 20px;
+  background-color: var(--secondary);
+  box-shadow: 1px 4px 3px 0px rgba(0, 0, 0, 0.17) inset,
+    -1px -4px 3px 0px rgba(0, 0, 0, 0.17) inset;
+
+  -webkit-box-shadow: 1px 4px 3px 0px rgba(0, 0, 0, 0.17) inset,
+    -1px -4px 3px 0px rgba(0, 0, 0, 0.17) inset;
+  -moz-box-shadow: -1px -4px 3px 0px rgba(0, 0, 0, 0.17) inset,
+    -1px -4px 3px 0px rgba(0, 0, 0, 0.17) inset;
+
+  .swiper-wrapper {
+    padding: 1.3rem;
+    .swiper-slide {
+      img {
+        object-fit: cover;
+        background-size: cover;
+        border-radius: 20px;
+        border: 6px solid #fff;
+        filter: drop-shadow(
+          rgba(136, 165, 191, 0.48) 6px 2px 16px 0px,
+          rgba(255, 255, 255, 0.8) -6px -2px 16px 0px
+        );
+
+        --webkit-filter: drop-shadow(
+          rgba(136, 165, 191, 0.48) 6px 2px 16px 0px,
+          rgba(255, 255, 255, 0.8) -6px -2px 16px 0px
+        );
+        --moz-filter: drop-shadow(
+          rgba(136, 165, 191, 0.48) 6px 2px 16px 0px,
+          rgba(255, 255, 255, 0.8) -6px -2px 16px 0px
+        );
+        box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+          rgba(0, 0, 0, 0.3) 0px 7px 13px -3px,
+          rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+
+        -webkit-box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+          rgba(0, 0, 0, 0.3) 0px 7px 13px -3px,
+          rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+        -moz-box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+          rgba(0, 0, 0, 0.3) 0px 7px 13px -3px,
+          rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+      }
+    }
+  }
+
+  .swiper-pagination {
+    bottom: -1px;
+    .swiper-pagination-bullet {
+      margin: 0px;
+      background-color: var(--primary);
+      border-radius: 2px;
+      width: 50px;
+    }
+  }
+}
+
+.swiper-package {
+  width: 100%;
+  border-radius: 20px;
+  background-color: var(--secondary);
+  box-shadow: 1px 4px 3px 0px rgba(0, 0, 0, 0.17) inset,
+    -1px -4px 3px 0px rgba(0, 0, 0, 0.17) inset;
+
+  -webkit-box-shadow: 1px 4px 3px 0px rgba(0, 0, 0, 0.17) inset,
+    -1px -4px 3px 0px rgba(0, 0, 0, 0.17) inset;
+  -moz-box-shadow: -1px -4px 3px 0px rgba(0, 0, 0, 0.17) inset,
+    -1px -4px 3px 0px rgba(0, 0, 0, 0.17) inset;
+}

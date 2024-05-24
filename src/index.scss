@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@import url("https://fonts.googleapis.com/css2?family=Alex+Brush&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+
+:root{
+	--dark: #161C24;
+	--light: #F9FAFB;
+	--gray: #CED3D0;
+	--white: #FFFFFF;
+	--primary: #677B71;
+	--secondary: #ECEDE8;
+	--success: #8FB02B;
+	--error: #EE5252;
+	--danger: #EE5252;
+	--warning: #F5CC3C;
+	--info: #47C5DF;
+	--acent: #47dfbc;
+
+	--ft-montserrat: 'Montserrat', sans-serif;
+	--ft-alex-brush: 'Alex Brush', cursive;
+}

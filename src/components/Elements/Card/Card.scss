@@ -1,0 +1,101 @@
+.card-custom {
+  display: flex;
+  justify-content: center;
+  .card-portofolio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    width: 250px;
+    gap: 12px;
+    font-weight: 600;
+    transition: transform 0.3s ease;
+    padding: 20px;
+
+    .card-img {
+      width: 100%;
+      height: 280px;
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 20px;
+        box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.3);
+        filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.3));
+        border: 4px solid var(--white);
+      }
+    }
+    .card-desc {
+      text-align: center;
+      font-family: var(--ft-alex-brush);
+      font-size: 14px;
+    }
+    .card-title {
+      text-align: start;
+      font-family: var(--ft-montserrat);
+      margin: 0;
+      padding: 0px 10px;
+    }
+
+    &:hover {
+      transform: scale(1.01);
+    }
+  }
+
+  .card-package {
+		font-family: var(--ft-montserrat);
+    display: flex;
+    border-radius: 20px;
+    margin: 20px;
+    width: 626px;
+		height: 410px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+		background-color: var(--light);
+
+    .card-img {
+      width: 300px;
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 20px 0px 0px 20px;
+      }
+    }
+
+    .card-content {
+			width: 100%;
+      display: flex;
+      flex-direction: column;
+      .card-title {
+        justify-content: center;
+				padding: 10px 0px;
+				border-bottom: 2px solid var(--dark);
+      }
+      .card-body {
+        padding: 15px;
+				.card-subtitle {
+					h2{
+						font-weight: 600;
+						color: var(--primary);
+					}
+					ul{
+						margin: 0px 10px;
+						li{
+							list-style: inside;
+							font-size: 12px;
+							font-weight: 500;
+						}
+					}
+				}
+      }
+
+			.card-footer{
+				display: flex;
+				justify-content: end;
+				align-items: center;
+				margin-top: 0;
+				padding: 0px 10px 10px 10px;
+			}
+    }
+  }
+}
