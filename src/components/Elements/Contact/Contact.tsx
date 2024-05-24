@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import "./Contact.scss";
-import { BsHeadset, BsSend, BsSendFill, BsX } from "react-icons/bs";
+import { BsHeadset, BsSendFill, BsX } from "react-icons/bs";
 
 const Contact = () => {
   const [isVisible, setIsVisible] = useState(false);
