@@ -60,7 +60,6 @@ const SlideColection: React.FC<SlideCollectionProps> = (
 
 const SlidePackage = (props: any) => {
   return (
-    // <div className="carousel carousel-center max-w-screen-md min-w-72 space-x-10 items-start shadow-[inset_0_5px_24px_-15px_rgba(0,0,0,0.3)] rounded-btn">
     <Swiper
       loop={true}
       slidesPerView={1}
@@ -75,11 +74,9 @@ const SlidePackage = (props: any) => {
           spaceBetween: -10
         }
       }}
-      className="swiper-package"
-      >
+      className="swiper-package">
       {props.children}
     </Swiper>
-    // </div>
   );
 };
 

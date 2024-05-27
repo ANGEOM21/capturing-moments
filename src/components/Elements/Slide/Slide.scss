@@ -59,12 +59,27 @@
 .swiper-package {
   width: 100%;
   border-radius: 20px;
-  background-color: var(--secondary);
-  box-shadow: 1px 4px 3px 0px rgba(0, 0, 0, 0.17) inset,
-    -1px -4px 3px 0px rgba(0, 0, 0, 0.17) inset;
+}
 
-  -webkit-box-shadow: 1px 4px 3px 0px rgba(0, 0, 0, 0.17) inset,
-    -1px -4px 3px 0px rgba(0, 0, 0, 0.17) inset;
-  -moz-box-shadow: -1px -4px 3px 0px rgba(0, 0, 0, 0.17) inset,
-    -1px -4px 3px 0px rgba(0, 0, 0, 0.17) inset;
+@media screen and (max-width: 768px) {
+  .swiper-package {
+    height: auto;
+    .swiper-wrapper {
+      height: 100%;
+    }
+  }
+
+  .swiper-collection {
+    .swiper-wrapper {
+      padding: 1.3rem 0;
+      .swiper-slide-active {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+      }
+    }
+  }
 }

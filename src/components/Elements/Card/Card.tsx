@@ -76,11 +76,6 @@ const CardPackage: React.FC<PackageProps> = (props: PackageProps) => {
               </div>
             ))}
           </div>
-          <div className="card-footer">
-            <button className="btn btn-primary text-light font-montserrat">
-              Order Now
-            </button>
-          </div>
         </div>
       </div>
     </Card>

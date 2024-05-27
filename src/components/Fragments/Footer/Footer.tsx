@@ -47,11 +47,11 @@ const Footer = () => {
           />
         </div>
         {/* link footer */}
-        <div className="flex justify-between mx-10 font-medium font-montserrat text-sm text-light">
-          <div className="flex flex-col uppercase gap-4 flex-wrap h-24">
+        <div className="flex md:flex-row flex-col md:justify-between justify-center items-center md:items-start mx-10 font-medium font-montserrat text-sm text-light md:gap-0 gap-2">
+          <div className="flex md:flex-col flex-row uppercase md:gap-4 gap- md:flex-wrap md:h-24">
             {linkFoot.map((item, index) => (
               <Link
-                className="link link-hover mx-6"
+                className="link link-hover md:mx-6 mx-2"
                 to={`${url}/#${item}`}
                 key={index}>
                 {item}
@@ -61,12 +61,12 @@ const Footer = () => {
           {/* sign in or sign up to access */}
           <Link
             to={"/#"}
-            className="link link-hover w-60 px-4">
+            className="link link-hover w-60 md:px-4 text-sm md:font-medium font-normal text-center">
             Sign up and get the chance to enliven your wedding
           </Link>
         </div>
         {/* social acount */}
-        <div className="flex items-center gap-3 px-14">
+        <div className="flex items-center md:justify-start justify-center gap-3 px-14">
           {iconSocial.map((item, index) => (
             <Link
               to={item.link}
@@ -86,13 +86,13 @@ const Footer = () => {
             <span className="text-2xl font-semibold font-montserrat">
               &copy;
             </span>
-            <span className="font-montserrat font text-xl">2024,</span>
+            <span className="font-montserrat font md:text-xl text-sm">2024,</span>
             <Link to={"#"} className="link link-hover mt-1">
-              <span className="font-alex-brush text-xl">TuleCapture</span>
+              <span className="font-alex-brush md:text-xl text-sm">TuleCapture</span>
             </Link>
           </div>
           {/* terms and policy */}
-          <div className="flex font-montserrat text-md text-center gap-1 text-light">
+          <div className="flex font-montserrat text-sm text-center gap-1 text-light">
             <span>
               <Link
                 to={"#"}

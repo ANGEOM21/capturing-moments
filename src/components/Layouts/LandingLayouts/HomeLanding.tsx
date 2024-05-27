@@ -8,7 +8,6 @@ import Package from "@components/Fragments/Package/Package";
 import Footer from "@components/Fragments/Footer/Footer";
 
 import ScrollSpy from "react-ui-scrollspy";
-import Contact from "@components/Elements/Contact/Contact";
 import ScrollToTopButton from "@components/Elements/ScrollToTopButton/ScrollToTopButton";
 
 const HomeLanding = () => {
@@ -25,7 +24,6 @@ const HomeLanding = () => {
           <Package id="package" />
         </div>
       </ScrollSpy>
-      <Contact/>
       <ScrollToTopButton />
       <Footer />
     </div>

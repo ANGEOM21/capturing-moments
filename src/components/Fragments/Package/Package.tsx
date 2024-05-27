@@ -101,7 +101,7 @@ const Package = (props: any) => {
     <div
       className="min-h-screen flex justify-center"
       id={id}>
-      <div className="md:py-20 w-[90%] h-full py-10">
+      <div className="md:py-20 w-[100%] h-full py-10">
         <h1 className="text-dark text-center md:my-10 font-alex-brush font-semibold text-3xl drop-shadow">
           Our Wedding Collection
         </h1>
